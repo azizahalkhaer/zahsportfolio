@@ -1,286 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Azizah Al-Khaer - Business Statistics Student</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/responsive.css" />
-  </head>
-  <body>
-    <!--Header-->
-    <header>
-      <div class="main-container">
-        <div class="nav">
-          <div class="logo">
-            <a href="/">AA</a>
-          </div>
 
-          <nav>
-            <ul>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolios">Portfolio</a></li>
-              <li><a href="#skils">Skils</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li>
-                <a href="resume/Nur Azizah Al-Khaer-resume.pdf" target="resume/Nur Azizah Al-Khaer-resume.pdf">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zah-s Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="foto semi formal.jpg" alt="Azizah Al-Khaer" width="50">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Azizah Al-Khaer">Azizah Al-Khaer</h1>
+
+          <p class="title">3rd Year Business Statistics Student at ITS</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+        Show Contacts
+        </button>
+
+
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="azizahalkhaer93@gmail.com" class="contact-link">azizahalkhaer93@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+62 852-1126-9710</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 6, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Surabaya, East Java</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#https://www.linkedin.com/in/azizah-alkhaer-286367286/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#https://github.com/azizahalkhaer" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#https://instagram.com/azizahalkhaer" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          <li>
+                <a href="Nur Azizah Al-Khaer-resume (1).pdf" target="resume/Nur Azizah Al-Khaer-resume.pdf">
                   <button class="btn">Resume</button>
                 </a>
-              </li>
-            </ul>
-          </nav>
+          </li>
 
-          <div class="burger">
-            <div class"line-1"></div> 
-            <div class"line-2"></div>
-            <div class"line-3"></div>
-          </div>
-        </div>
-      </div>
+        </ul>
 
-      <section id="hero">
-        <div clas="hero-left">
-          <h3 class="pre-title">My name is</h3>
-          <h1 class="hero-name">Azizah <span>Al-khaer</span></h1>
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
           <p>
-            Mahasiswa sarjana terapan di Institut Teknologi Sepuluh Nopember, Departemen Statistika Bisnis. Tertarik pada dunia kepemimpinan, keilmuan, serta Teknologi. Saya seorang mahasiswa yang aktif, menyukai organisasi, berpengalaman dalam memimpin, mudah dalam beradaptasi, dan berdisiplin tinggi. 
+            I am an undergraduate student at the Sepuluh Nopember Institute of Technology, 
+            majoring in Business Statistics. 
+            I am passionate about leadership, academics, and technology, 
+            with strong interests in design, content creation, data analysis, and programming. 
+            I am an active student who enjoys being involved in organizations, has leadership experience, adapts easily, and demonstrates high discipline.
           </p>
-        </div>
-        <div class="hero-right">
-          <img src="./images/FOTO FORMAL ICA.jpg" alt="Person Standing" />
+          <P>With experience across personal projects, organizations, and content creation, 
+            I love transforming ideas into visuals that feel intentional, meaningful, and memorable. 
+            My work combines design, content creation, and data-driven insights to craft websites and digital experiences that are functional, user-friendly, and visually engaging. 
+            I enjoy adding a personal touch to every project, ensuring that each product reflects the identity and message it represents.</P>
+        </section>
 
-        </div>
 
-      </section>
-    </header>
-    <!--End of Header-->
+        <!--
+          - service
+        -->
 
-    <!--Services-->
-    <section id="services">
-      <div class="services main-container">
-        <h3 class="pre-title">Services</h3>
-        <h1 class="section-title services-title">Specialized In</h1>
+        <section class="service">
 
-        <div class="grid-3">
-          <!--Service 1-->
-          <div class="service">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.764 17.385l2.66 5.423-2.441 1.192-2.675-5.474-3.308 2.863v-12.389l10 7.675-4.236.71zm2.236-7.385h2v-4h-2v4zm0 2.619l2 1.535v-2.154h-2v.619zm-10 8.77v-1.389h-4v2h4v-.611zm-8-3.389h-2v4h4v-2h-2v-2zm-2-14h2v-2h2v-2h-4v4zm2 8h-2v4h2v-4zm8-12h-4v2h4v-2zm6 0h-4v2h4v-2zm4 4h2v-4h-4v2h2v2zm-18 2h-2v4h2v-4z"/></svg>
-            </div>
-            <h4>Graphic Designer</h4>
-            <p>Motivated beginner Graphic Designer with a passion for creating visually appealing designs using tools like Adobe Photoshop, Illustrator, and Canva, eager to bring fresh ideas to life.</p>
-          </div> 
-            <!--Service 2-->
-          <div class="service"> 
-            <div class="service-icon">
-              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 23h-24v-21h24v21zm-20-1v-4h-3v4h3zm15 0v-19h-14v19h14zm4 0v-4h-3v4h3zm-6-9.5l-9 5v-10l9 5zm3 .5v4h3v-4h-3zm-16 4v-4h-3v4h3zm5-1.2l5.941-3.3-5.941-3.3v6.6zm11-7.8v4h3v-4h-3zm-16 4v-4h-3v4h3zm16-9v4h3v-4h-3zm-16 4v-4h-3v4h3z"/></svg>
-            </div>
-            <h4>Content Creator</h4>
-            <p>Creative and passionate beginner Content Creator, skilled in basic photo and video editing, with a keen interest in producing engaging content and growing audience interaction on digital platforms.</p>
-          </div> 
-            <!--Service 3-->
-          <div class="service">
-            <div class="service-icon">
-              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12.02 0c6.614.011 11.98 5.383 11.98 12 0 6.623-5.376 12-12 12-6.623 0-12-5.377-12-12 0-6.617 5.367-11.989 11.981-12h.039zm3.694 16h-7.427c.639 4.266 2.242 7 3.713 7 1.472 0 3.075-2.734 3.714-7m6.535 0h-5.523c-.426 2.985-1.321 5.402-2.485 6.771 3.669-.76 6.671-3.35 8.008-6.771m-14.974 0h-5.524c1.338 3.421 4.34 6.011 8.009 6.771-1.164-1.369-2.059-3.786-2.485-6.771m-.123-7h-5.736c-.331 1.166-.741 3.389 0 6h5.736c-.188-1.814-.215-3.925 0-6m8.691 0h-7.685c-.195 1.8-.225 3.927 0 6h7.685c.196-1.811.224-3.93 0-6m6.742 0h-5.736c.062.592.308 3.019 0 6h5.736c.741-2.612.331-4.835 0-6m-12.825-7.771c-3.669.76-6.671 3.35-8.009 6.771h5.524c.426-2.985 1.321-5.403 2.485-6.771m5.954 6.771c-.639-4.266-2.242-7-3.714-7-1.471 0-3.074 2.734-3.713 7h7.427zm-1.473-6.771c1.164 1.368 2.059 3.786 2.485 6.771h5.523c-1.337-3.421-4.339-6.011-8.008-6.771"/></svg>
-            </div>
-            <h4>Web Development</h4>
-            <p>Enthusiastic beginner in web development with a solid foundation in HTML, CSS, and JavaScript, eager to build functional and user-friendly websites while learning and growing in the field.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--End of Services-->
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-    <!--Portfolio-->
-    <section id="portfolios">
-      <div class="potfolios main-container">
-        <h3 class="pre-title">My Works</h3>
-        <h1 class="section-title">Featured Portfolios</h1>
+          <ul class="service-list">
 
-        <div class="grid-3">
-          <!--portfolio 1-->
-          <div class="portfolio">
-            <div class="portfolio-cover">
-              <img src="./images/website.png" alt="Website Portfolio">
-            </div>
+            <li class="service-item">
 
-            <div class="portfolio-info">
-              <div class="potfolio-title">
-                <h4>Website Portfolio</h4>
-                <a href="https://erthaascarves.github.io/erthaascarves/#" class="portfolio-link">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                </a>
-              </div>
-              <p>
-                Hi! I’m just starting my journey in creating websites, but I’m excited to share what I’ve made so far. From simple personal blogs to small online stores, I’ve tried my best to make each project functional and visually pleasing. I’m still learning, and every new project is a step to improving my skills.
-              </p>
-            </div>
-          </div>
-          <!--portfolio 2-->
-          <div class="portfolio">
-            <div class="portfolio-cover">
-              <img src="./images/graphic designer.png" alt="Graphic Design Portfolio">
-            </div>
+           
 
-            <div class="portfolio-info">
-              <div class="potfolio-title">
-                <h4>Design Portfolio</h4>
-                <a href="https://www.canva.com/design/DAGHU8EddJc/_xJCoxmyM9vZMzz4_JCThQ/view?utm_content=DAGHU8EddJc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9e1ddd57ba" class="portfolio-link">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                </a>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design Graphic</h4>
+
+                <p class="service-item-text">
+                  I create visually compelling designs that communicate ideas clearly and effectively. With a strong sense of color, composition, and typography, I transform concepts into graphics that are both aesthetically pleasing and meaningful.
+                </p>
               </div>
 
-              <p>
-                I’m a beginner in design, and this portfolio is where I share my growth. Whether it’s experimenting with social media posts, simple branding projects, or illustrations, I pour my creativity into every piece. I know I have a long way to go, but I’m enjoying every step of the process!
-              </p>
-            </div>
-          </div>
-          <!--portfolio 3-->
-           <div class="portfolio">
-            <div class="portfolio-cover">
-              <img src="./images/cc.png" alt="CC Portfolio">
-            </div>
+            </li>
 
-            <div class="portfolio-info">
-              <div class="potfolio-title">
-                <h4>Content Portfolio</h4>
-                <a href="https://linktr.ee/azizahalkhaer" class="portfolio-link">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                </a>
+            <li class="service-item">
+
+              
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Creation</h4>
+
+                <p class="service-item-text">
+                  I create engaging content that connects with audiences across digital platforms. By combining creativity, strategy, and storytelling, I produce visuals, videos, and posts that are both impactful and memorable.
+                </p>
               </div>
 
-              <p>
-                Content creation is new to me, but I’ve loved trying my hand at storytelling and designing posts. These projects are small steps as I learn about what works and what connects with people. I hope to keep improving and creating better content with each attempt!
-              </p>
-            </div>
-          </div>
+            </li>
 
-        </div>
-      </div>
-    </section>
-    <!--End of Portfolio-->
+            <li class="service-item">
 
-    <!--skills and education-->
-    <section id="skills">
-      <div class="skills main-container">
-        <h3 class="pre-title">Learning Path</h3>
-        <h1 class="section-title">Skills & Education</h1>
+      
 
-        <div class="skills-grid">
-          <div class="skills-left">
-            <div class="education">
-              <div class="line">
-                <div></div>
-              </div>
-                <!--education 1-->
-              <div class="education-info">
-                <h4 class="education-title">Sepuluh Nopember Institute of Technology</h4>
-                <p>Business Statistics Student</p>
-                <h4 class="education-years">2023-now</h4>
-              </div>
-            </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistical</h4>
 
-            <!--education 2-->
-            <div class="education">
-              <div class="line">
-                <div></div>
+                <p class="service-item-text">
+                  I analyze data using statistical techniques to uncover patterns, measure performance, and evaluate outcomes. My goal is to make data reliable, understandable, and ready to drive informed decision-making.
+                </p>
               </div>
 
-              <div class="education-info">
-                <h4 class="education-title">Muhammadiyah Boarding School Yogyakarta</h4>
-                <p>Social Major</p>
-                <h4 class="education-years">2019-2023</h4>
+            </li>
+
+            <li class="service-item">
+
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  I develop functional and user-friendly websites that not only perform well but also deliver an engaging and intuitive experience. By combining front-end design, back-end logic, and best practices, I ensure every website I build aligns with the client’s goals and brand identity.
+                </p>
               </div>
-            </div>
-          </div>
 
-          <div class="skills-right">
-            <p>
-              Since semester one, I’ve applied skills in public speaking, copywriting, and design tools as a graphic designer and content creator.
-            </p>
-            <div class="skills-list">
-              <ul>
-                <li>Hard Skills: Public Speaking, Writing (Copywriter)</li>
-                <li>Languages: Indonesian (Native), Arabic, English</li>
-                <li>Soft Skills: Editing, Communication</li>
-                <li>Interpersonal Skills: Team Work dan Problem-Solving</li>
-                <li>Software Skills: Microsoft Office, Canva, Figma, Inkscape</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  <!--end of skills education-->
+            </li>
 
-  <!--contact-->
-    <section id="contact">
-      <div class="contact main-container">
-        <div class="contact-left">
-          <form class="contact-form" action="https://formspree.io/f/meoopyeo" method="POST">
-            <div>
-              <input type="text" placeholder="Name" name="name">
-            </div>
-            <div>
-              <input type="email" placeholder="Email" name="email"> 
-            </div>
-            <div>
-              <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-              <button class="btn-submit">Send Message</button>
-            </div>
-          </form>
-        </div>
+          </ul>
 
-        <div class="contact-right">
-          <!--contact item 1-->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c3.196 0 6 2.618 6 5.602 0 3.093-2.493 7.132-6 12.661-3.507-5.529-6-9.568-6-12.661 0-2.984 2.804-5.602 6-5.602m0-2c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Address</h4>
-              <p>Surabaya, Indonesia</p>
-            </div>
-          </div>
-          <!--contact item 2-->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <a href="https://wa.me/6285211269710"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.5 17.311l-1.76-3.397-1.032.505c-1.12.543-3.4-3.91-2.305-4.497l1.042-.513-1.747-3.409-1.053.52c-3.601 1.877 2.117 12.991 5.8 11.308l1.055-.517z"/></svg></a>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Phone</h4>
-              <p>+62 852-1126-9710</p>
-            </div>
-          </div>
-          <!--contact item 3-->
-          <div class="contact-item">
-            <div class="contact-item-icon">
-              <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=azizahalkhaer93@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.02c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 12.55l-5.992-4.57h11.983l-5.991 4.57zm0 1.288l-6-4.629v6.771h12v-6.771l-6 4.629z"/></svg></a>
-            </div>
-            <div class="contact-item-detail">
-              <h4>Email</h4>
-              <p>azizahalkhaer93@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--end of contact-->
+        </section>
 
-    <!--copyright-->
-    <footer>
-      <div class="footer-icons">
-        <a href ="https://www.instagram.com/azizahalkhaer?igsh=MWl6d25xZXQxYmk3aw%3D%3D&utm_source=qr"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z"/></svg></a>
-        <a href="https://www.linkedin.com/in/azizah-alkhaer-286367286"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
-      </div>
-      <p>&#169; 2025 Made by Azizah</p>
-    </footer>
-    <!--end of copyright-->
-    <script src="scripts/main.js"></script>
-  </body>
+      </article>
+
+      
+
+
+
+  <article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="project-list">
+
+      <li class="project-item">
+        <a href="https://www.canva.com/design/DAG62f99yXQ/nPS6yoVbd-3MGMvw0NA7cg/view" target="_blank">
+          <h3 class="project-title">Branding & Poster Design</h3>
+          <p class="project-category">Graphic Design</p>
+        </a>
+      </li>
+
+      <li class="project-item">
+        <a href="https://www.canva.com/design/DAG6ZqHS38c/s5wbVGQuey0FEWThfJy75g/view" target="_blank">
+          <h3 class="project-title">Social Media Content</h3>
+          <p class="project-category">Content Creation</p>
+        </a>
+      </li>
+
+      <li class="project-item">
+        <a href="https://www.canva.com/design/DAG62mr1Nmk/JjIdiywmE5P5OOZJiwCLCw/view" target="_blank">
+          <h3 class="project-title">Responsive Portfolio Website</h3>
+          <p class="project-category">Web Development</p>
+        </a>
+      </li>
+
+      <li class="project-item">
+        <a href="https://www.canva.com/design/DAG62sW1BDg/x1KCs7hnQQbcVv1oKNMeSA/view" target="_blank">
+          <h3 class="project-title">Data Analysis Report</h3>
+          <p class="project-category">Statistical</p>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+         <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.798781215172!2d112.73882647478394!3d-7.257471394679934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb5c14c0d7d3%3A0x3027a76c2aee280!2sSurabaya%2C%20East%20Java%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1701536523456!5m2!1sen!2sid" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="https://formspree.io/f/meoopyeo" method="POST" class="form" data-form>
+                <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+            </button>
+        </form>
+        </section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
-
 
